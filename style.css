@@ -1,0 +1,15 @@
+#menu-image {
+    height: 50px;
+}
+
+#menu-image img {
+    height: 100%;
+    width: auto;
+    display: block;
+}
+
+.menu {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+

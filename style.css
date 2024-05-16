@@ -69,15 +69,37 @@ body {
     align-items: center;
 }
 
-.blitz {
-    width: 300px;
-    height: 300px
+.teas {
+    display: flex;
+    justify-content: space-around;
+
 }
 
-.blitz {
-    width: 300px;
-    height: 300px;
+.teas > div {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
 }
-.teas {
-    display: ;
+
+.teas img {
+    height: 200px;
+    width: 300px;
+}
+
+
+.other-teas {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.other-teas > div {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.other-teas img {
+    height: 200px;
+    width: 300px;
 }

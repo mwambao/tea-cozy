@@ -1,3 +1,11 @@
+
+body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
 #menu-image {
     height: 50px;
 }
@@ -20,3 +28,35 @@
     transform: translateY(-50%);
     right: 0;
 }
+
+.mission {
+    background-image: url("images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission h2{
+    color: lightgray;
+    background-color: black;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mission h4{
+    color: lightgray;
+    background-color: black;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

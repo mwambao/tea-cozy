@@ -29,7 +29,7 @@ body {
     right: 0;
 }
 
-.mission {
+#mission {
     background-image: url("images/img-mission-background.jpg");
     color: yellow;
     height: 700px;
@@ -40,7 +40,7 @@ body {
     align-items: center;
 }
 
-.mission h2{
+#mission h2{
     width: 1200px;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@ body {
     align-items: center;
 }
 
-.mission h4{
+#mission h4{
     width: 1200px;
     display: flex;
     flex-direction: column;
@@ -117,15 +117,30 @@ body {
 #downtown {
     border: 2px solid black;
     background-color: black; 
+    width: 300px;
+    opacity: 1;
     
 }
 
 #bayside {
     border: 2px solid black;
     background-color: black; 
+    width: 300px;
+    opacity: 1;
 }
 
 #oakdale {
     border: 2px solid black;
     background-color: black; 
+    width: 300px;
+    opacity: 1;
 }
+
+#tea-cozy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
